@@ -42,12 +42,22 @@ ul {
     color: var(--title-text-color);
     text-decoration: none;
 }
+.link.email,
+.link.tel {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+}
 
 .link:hover {
     color: var(--accent-color);
 }
 
 .link:focus {
+    color: var(--accent-color);
+}
+.link.current {
     color: var(--accent-color);
 }
 
@@ -63,6 +73,10 @@ ul {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+}
+.primary-button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
 }
 
 /* exellence */
@@ -111,16 +125,27 @@ footer .logo-studio {
 }
 .address {
     font-style: inherit;
+        
 }
 .address-item {
     color:#FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
 }
 .item {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none; 
+    font-weight: 400; 
+    font-size: 14px;
+    line-height: 1.7;
 }
+
 .address.link:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
-.address.link:focus{
-    color: #2196F3;
+.address.link:focus {
+    color: var(--accent-color);
 }
