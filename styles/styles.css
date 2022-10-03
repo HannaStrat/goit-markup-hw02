@@ -21,6 +21,7 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 3%;
 }
 /* logo */
 
@@ -28,11 +29,17 @@ ul {
     color: var(--accent-color);
     font-family: Raleway;
     text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 3%;
 }
 .logo-studio {
     color: #000000;
     font-family: Raleway;
     text-decoration: none;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 3%;
 }
 .link-logo {
     text-decoration: none;
@@ -41,6 +48,11 @@ ul {
 .link {
     color: var(--title-text-color);
     text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 2%;
 }
 .link.email,
 .link.tel {
@@ -48,6 +60,8 @@ ul {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 2%;
+    text-decoration: none;
 }
 
 .link:hover {
@@ -73,11 +87,16 @@ ul {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 6%;
 }
 .primary-button {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 6%;
 }
 
 /* exellence */
@@ -88,11 +107,12 @@ ul {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 3%;
 }
 .execellence.text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 3%;
 }
 
 /* team */
@@ -108,40 +128,41 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 3%;
 }
 .team.text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 3%;
 }
 
 
 /* footer */
 
 footer {
-    background-color: var(--primary-black-color);
+   background-color: var(--primary-black-color);
 }
 footer .logo-studio {
     color: var(--primary-white-color);
 }
 .address {
-    font-style: inherit;
-        
+    font-style: inherit;            
 }
+
 .address-item {
-    color:#FFFFFF;
     text-decoration: none;
-    font-weight: 400;
+    color:#FFFFFF;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 3%;
     
 }
 .item {
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none; 
-    font-weight: 400; 
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 3%;
 }
 
 .address.link:hover,
@@ -163,6 +184,7 @@ footer .logo-studio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    letter-spacing: 3%;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -179,12 +201,13 @@ footer .logo-studio {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 6%;
 }
 .project.text {
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 3%;
 }
 
 
